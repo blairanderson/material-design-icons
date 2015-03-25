@@ -1,0 +1,42 @@
+// Base Class Definition
+// -------------------------
+
+.g-icon {
+  display: inline-block;
+  font: normal normal normal #{$fa-font-size-base}/1 FontAwesome; // shortening font declaration
+  font-size: inherit; // can't have font-size inherit on line above, so need to override
+  text-rendering: auto; // optimizelegibility throws things off #1094
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0); // ensures no half-pixel rendering in firefox
+  display: block;
+  width: 100px;
+  height: 82px;
+  background-size: 100px 82px;
+}
+
+// <h1>action</h1>
+.3d-rotation-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_3d_rotation_24px.svg);}
+.accessibility-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_accessibility_24px.svg);}
+.account-balance-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_account_balance_24px.svg);}
+.account-balance-wallet-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_account_balance_wallet_24px.svg);}
+.account-box-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_account_box_24px.svg);}
+.account-child-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_account_child_24px.svg);}
+.account-circle-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_account_circle_24px.svg);}
+.add-shopping-cart-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_add_shopping_cart_24px.svg);}
+.alarm-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_alarm_24px.svg);}
+.alarm-add-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_alarm_add_24px.svg);}
+.alarm-off-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_alarm_off_24px.svg);}
+.alarm-on-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_alarm_on_24px.svg);}
+.android-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_android_24px.svg);}
+.announcement-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_announcement_24px.svg);}
+.aspect-ratio-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_aspect_ratio_24px.svg);}
+.assessment-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_assessment_24px.svg);}
+.assignment-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_assignment_24px.svg);}
+.assignment-ind-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_assignment_ind_24px.svg);}
+.assignment-late-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_assignment_late_24px.svg);}
+.assignment-return-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_assignment_return_24px.svg);}
+.assignment-returned-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_assignment_returned_24px.svg);}
+.assignment-turned-in-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_assignment_turned_in_24px.svg);}
+.autorenew-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_autorenew_24px.svg);}
+.backup-g-icon{background: url(https://cdn.rawgit.com/google/material-design-icons/master/action/svg/design/ic_backup_24px.svg);}
